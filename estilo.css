@@ -1,7 +1,7 @@
-@import url(./css/video.css);
-@import url(./css/buscador.css);
-@import url(./css/menu.css);
-@import url(./css/predicadores.css);
+@import url(video.css);
+@import url(buscador.css);
+@import url(menu.css);
+@import url(predicadores.css);
 
 
 *{

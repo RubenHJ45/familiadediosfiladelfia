@@ -1,0 +1,14 @@
+.losada1{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.losada1 img{
+    width: 120px; 
+    height: 120px;   
+    margin: 20px;
+}
