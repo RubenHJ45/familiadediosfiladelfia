@@ -2,53 +2,23 @@
     width: 100%;
     align-items: center;
     display: flex;
-    justify-content: center;    
-}
-.conten-videos2{
-    width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-      
-}
-.conten-videos3{
-    width: 100%;
-    align-items: center;
-    display: flex;
-    justify-content: center;      
-}
-.conten-videos4{    
-    width: 100%;   
-    align-items: center;
-    display: flex;    
     justify-content: center; 
-    align-items: center;     
+     
 }
+
 
 .conten-videos .deidad1{
     width: 25%;
     margin: 50px;
     text-align: center;
 }
-.conten-videos2 .deidad1{
-    width: 25%;
-    margin: 50px;
-    text-align: center;
-}
-.conten-videos3 .deidad1 {
-    width: 25%;
-    margin: 50px;
-    text-align: center;
-}
-.conten-videos4 .deidad1 {
-    width: 25%;
-    margin: 50px;
-    text-align: center;
-}
+
 
 .deidad1 iframe{
     width: 100%;
     height: 255px;
+    border: 4px solid gold;
+    border-radius: 6px;
       
 }
 
@@ -57,39 +27,14 @@
     .conten-videos{
         display: block;
         width: 100%;
+        
     }
-    .conten-videos2{
-        display: block;
-        width: 100%;
-    }
-    .conten-videos3{
-        display: block;
-        width: 100%;
-    }
-    .conten-videos4{
-        display: block;
-        width: 100%;
-    }
+   
     .conten-videos .deidad1{
 
         width: 90%;
         margin: 20px;
-    }
-    .conten-videos2 .deidad1{
-
-        width: 90%;
-        margin: 20px;
-    }
-    .conten-videos3 .deidad1{
-
-        width: 90%;
-        margin: 20px;
-    }
-    .conten-videos4 .deidad1{
-
-        width: 90%;
-        margin: 20px;
-    }
+    }  
 
 
 
@@ -101,41 +46,16 @@
     .conten-videos{
         display: block;
         width: 100%;
+        margin-top: 100px;
+        align-items: center;
+        justify-content: center; 
     }
-    .conten-videos2{
-        display: block;
-        width: 100%;
-    }
-    .conten-videos3{
-        display: block;
-        width: 100%;
-    }
-    .conten-videos4{
-        display: block;
-        width: 100%;
-    }
+    
     .conten-videos .deidad1{
 
         width: 90%;
         margin: 20px;
+        text-align: center;
     }
-    .conten-videos2 .deidad1{
-
-        width: 90%;
-        margin: 20px;
-    }
-    .conten-videos3 .deidad1{
-
-        width: 90%;
-        margin: 20px;
-    }
-    .conten-videos4 .deidad1{
-
-        width: 90%;
-        margin: 20px;
-    }
-
-
-
 
 }
