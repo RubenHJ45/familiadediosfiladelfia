@@ -171,7 +171,9 @@ ul{
         align-items: center;
         display: block;
     }
-    
+    .nav-main #titulo {
+        font-size: 29px;
+    }
     #ctn-icon-search{
         position: absolute;
         right: 40px;
