@@ -26,6 +26,7 @@
 
 .nav-main ul li a:hover{
    border-bottom: 3px solid gold;
+   color: gold;
 }
 /* .nav-main ul.nav-menu {
     flex: 1;
