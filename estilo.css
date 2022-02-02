@@ -296,6 +296,17 @@ ul{
         width: 100%;
         height: 25%;
     }
+     .footer{
+        margin-top: 100px;
+        background: #43522b;
+        color: white;
+        font-size: 12px;
+        padding: 20px 0;
+        text-align: center;
+        padding-bottom: 20px;
+        width: 100%;
+        height: 70px;
+    }
     
    
 }
