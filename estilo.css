@@ -114,10 +114,12 @@ ul{
 .contenido{
     margin-top: 100px;
 }
-.contenido .imagen-parrafo img{
 
-    width: 400px;
-    height: 350px;
+.contenido .imagen-parrafo  img{
+
+    width: 50%;
+  
+   
 }
 
 .contacto{
