@@ -1,7 +1,7 @@
 @import url(./predicadores.css);
 @import url(./buscador.css);
 @import url(./menu.css);
-@import url(video.css);
+@import url(./video.css);
 
 
 
@@ -36,88 +36,13 @@ ul{
     width: 90%;
     margin: auto;
 }
-.nav-main{
-    width: 100%;
-    font-size: 17px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    padding: 20px 0;
-    position: fixed;
-    background: #43522b;
-    z-index: 10;
-    left: 0;
-}
-
-.logo{
-    width: 70px;
-}
-.nav-main ul {
-    display: flex;
-    
-}
-.nav-main ul li{
-    padding: 10px;
-}
-
-.nav-main ul li a:hover{
-   border-bottom: 3px solid #89c529;
-}
-/* .nav-main ul.nav-menu {
-    flex: 1;
-    margin-left: 20px;
-} */
-
-.menu-btn{
-    position: absolute;
-    cursor: pointer;
-    top: 15px;
-    right: 20px;
-    z-index: 2;
-    display: none;
-    justify-content: center;
-}
-
-#titulo{
-    margin-left: 0;
-}
-
-#titulo b{
-    color: chartreuse;
-}
-.titulo{
-    margin-top: 100px;
-}
-
-
-.container-submenu{
-    position: relative;
-}
-
-.submenu{
-    position: absolute;   
-    top: 60px;
-    width: 200px;
-    overflow: visible;
-    z-index: 1000;
-    opacity: 0;
-    visibility: hidden;
-}
-
-.container-submenu:hover .submenu{
-    opacity: 1;
-    visibility: visible;
-    display: block;
-    background: #43522b;
-    top: 38px;
-}
 
 
 /* EL PECADO */
 .contenido{
     margin-top: 100px;
     width: 100%;
+    
 }
 
 .contenido .imagen-parrafo  img{
@@ -130,6 +55,13 @@ ul{
     margin-left: 100px;
     text-align: center;
     font-size: 1.7em;
+}
+.botones input{
+    background: rgb(44, 94, 11);
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+   
 }
 
 /* IMAGEN DE LA CABECERA CRISTO */
@@ -174,13 +106,6 @@ ul{
     text-decoration: underline;
 }
 
-.botones input {
-   background: rgb(44,94,11);
-   color: white;
-   font-size: 1em;
-   padding: 10px;
-} 
-
 /* IMGEN FINAL */
 
 .final{
@@ -219,6 +144,7 @@ ul{
 
 .links a i{
     font-size: 3rem;
+    color: gold;
 }
 
 /* PIE FINAL */
@@ -308,7 +234,7 @@ ul{
         width: 100%;
         height: 25%;
     }
-     .footer{
+    .footer{
         margin-top: 100px;
         background: #43522b;
         color: white;
