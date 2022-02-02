@@ -117,10 +117,7 @@ ul{
 }
 
 .contenido .imagen-parrafo  img{
-
-    width: 80%;
-  
-   
+    width: 100%;  
 }
 
 .contacto{
@@ -230,7 +227,8 @@ ul{
 
     .menu-btn{
         position: absolute;
-        right: 5px;
+        right: 80px;
+        top: 21px;
         justify-content: center;
         align-items: center;
         display: block;
@@ -238,7 +236,7 @@ ul{
     
     #ctn-icon-search{
         position: absolute;
-        right: 30px;
+        right: 40px;
         justify-content: center;
         align-items: center;
         display: flex;
