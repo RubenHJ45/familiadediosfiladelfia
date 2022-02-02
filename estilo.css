@@ -111,7 +111,9 @@ ul{
 
 
 /* EL PECADO */
-
+.contenido{
+    margin-top: 100px;
+}
 .contenido .imagen-parrafo img{
 
     width: 400px;
