@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!--fuente oswal-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <!--Estilo css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <nav class="nav-main">
+            <img src="imagenes/logo.jpg" alt="familia-logo" class="logo"><h1 id="titulo">Familia de <b style="color: chartreuse;">Dios</b></h1>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="predicas.html">Predicas</a></li> 
+                <li><a href="testimonios.html">Musica</a></li>
+                <li><a href="biblioteca.html">Testimonios</a></li>
+                <li><a href="conocenos.html">Conocenos</a></li>
+                <li><a href="donativos.html">Donativos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>  
+                <li class="container-submenu">
+                    <a href="contacto.html" class="submenu-btn">Mas...</a>
+                    <ul class="submenu">
+                        <li class="menu-item"><a href="#" class="menu-link">Eventos</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Evangelizacion</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Consejeria</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Biblioteca</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Orientacion</a></li>
+                    </ul>                 
+            </ul>
+            <div id="ctn-icon-search">
+                <i class="fas fa-search" id="icon-search"></i>
+            </div>
+            <div class="menu-btn">
+                <i class="fas fa-bars fa-x2"></i>
+            </div>
+
+            <ul class="nav-menu-right">
+                <li><a href="#"><i class=""></i></a></li>
+            </ul> 
+        </nav>
+        <hr>
+        
+        <div class="titulo">
+            <h1>MENSAJE</h1>
+            <h3>Escribenos y te responderemos lo antes podible</h3>
+        </div>
+        <div class="formulario">
+            <form action="send.php" method="post"" name="contacto" id ="contacto" >
+
+                Nombre completo <input name="nombre" type="text" id="nombre completo"size="30" maxlength="100">
+                <br>
+                <br>
+                Correo electronico <input name="email" type="text" onBlur="MM_validateForm('email','','NisEmail');return document.MM_returnValue" size="25" maxlength="100" >
+                <br>
+                <br>
+                Población <input name="poblacion" type="text" onBlur="MM_validateForm('poblacion','','R');return document.MM_returnValue" size="20" maxlength="60">
+                <br>
+                <br>
+               
+                Comentario
+                <br>
+                
+                <textarea cols="40" rows="5" name="comentarios"></textarea>
+                <br>
+                <br>           
+               
+                <div class="botones">
+                    <input type="submit" value="Enviar formulario">
+                    <input type="Reset" value="Borrar datos">
+                    </div>
+                </form>
+                <div id="ctn-bars-search">
+                    <input type="text" id="imputSearch" placeholder="¿Que deseas buscar?">
+                </div>
+        
+                <ul id="box-search">
+                    <li><a href="#"><i class="fas fa-search"></i>CONTACTO</a></li>
+                    <li><a href="predicas.html"><i class="fas fa-search"></i>PREDICAS</a></li>
+                    <li><a href="eventos.html"><i class="fas fa-search"></i>EVENTOS</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i>ESTUDIOS</a></li>
+                    <li><a href="elpecado.html"><i class="fas fa-search"></i>PECADO</a></li>
+                    <li><a href="#"><i class="fas fa-search"></i>SALVACION</a></li>
+                    
+                </ul>
+        
+                <div id="cover-ctn-search"></div>
+
+                <section class="social">
+                    <p>PARA INFORMACION MAS PERSONALIZADA</p>
+                    <div class="links">
+                       <a href="whatsapp.html">
+                         <i class="fab fa-whatsapp"></i>
+                     </a>                     
+                    </div>
+                </section>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    
+</body>
+<div class="conten-footer">
+    <footer class="footer">
+     <h3>Familia de dios Copyright</h3>
+    </footer>
+    </div>
+</html>
