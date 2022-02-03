@@ -91,6 +91,7 @@ ul{
     height: 180px;
     border-radius: 6px;
     border: 2px solid gold;
+    box-shadow: 6px 5px 10px gold;
 }
 .noticias h3 {
     font-size: 20px;
