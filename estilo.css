@@ -61,9 +61,10 @@ ul{
 }
 .botones input{
     background: rgb(44, 94, 11);
-    color: white;
+    color: gold;
     font-size: 1em;
     padding: 10px;
+    border-radius: 4px;
    
 }
 
@@ -76,7 +77,7 @@ ul{
     padding: 50px;
     margin-bottom: 20px;
     text-align: center;
-    font-size: 2rem; 
+    font-size: 2rem;  
     border-radius: 4px;
     border: 2px solid gold;
     
@@ -96,8 +97,6 @@ ul{
     border-radius: 6px;
     border: 2px solid gold;
     box-shadow: 6px 5px 10px gold;
-    border-radius: 4px;
-    border: 2px solid gold;
 }
 .noticias h3 {
     font-size: 20px;
@@ -123,7 +122,7 @@ ul{
     height: 550px;
     background: url(./imagenes/Iglesia_min.jpg)no-repeat center center/cover;
     margin-bottom: 40px;
-    border-radius: 4px;
+    border-radius: 6px;
     border: 2px solid gold;
   
 }
@@ -131,7 +130,13 @@ ul{
 .final .conten{
     width: 40%;
     padding: 340px 0 0 30px;
+}
+.final .conten h2{
+    color: gold;
+}
 
+.final .conten p{
+    color: gold;
 }
 .final .conten a:hover{
     color: gold;
@@ -291,7 +296,7 @@ ul{
     .final .conten{
         width: 100%;
         padding: 60px 20px;
-        color: rgb(239, 243, 6);
+        color: gold;
         opacity: 0.7;
         background: rgb(49, 46, 46);     
     }

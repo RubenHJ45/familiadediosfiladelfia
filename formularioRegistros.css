@@ -6,26 +6,29 @@
     margin: auto;
     margin-top: 100px;
     border-radius: 4px;
-    border-top:gold solid 4px;
-    border-bottom:gold solid 4px;
-    box-shadow: 4px 15px 67px gold; 
+    border-top:gold solid 4px;    
+    box-shadow: 8px 15px 29px gold; 
+    display: grid;
+    gap: 10px;
+    
 
 }
 .form-container{
     width: 100%;    
     max-width: 300px;
     display: grid;
-    gap: 1em;
+    gap: 10px;
     grid-auto-columns: 100%;
-
+    
 }
+
 .form-register h4{
 
     font-size: 22px;
     margin-bottom: 20px;
 }
 
-.controls{
+.controls, .controls-text{
 
     width: 100%;
     background: #43522b;
@@ -35,9 +38,23 @@
     margin: auto;
     border: 1px solid gold;
     font-size: 18px;
-    color: white;
+    color: white; 
+    
+    
 }
 
+.controls-text{
+    resize: none;
+
+}
+
+.controls::placeholder{
+    color: gold;
+}
+
+.controls-text::placeholder{
+    color: gold;
+}
 .form-register p{
     height: 40px;
     text-align: center;
@@ -57,9 +74,10 @@
 .form-register .botons{
     width: 100%;
     background: #43522b;
-    
+    box-shadow: 4px 4px 7px gold;
     padding: 12px;
     color: gold;
     margin: 16px 0;
     font-size: 16px;
+    border-radius: 4px;
 }
