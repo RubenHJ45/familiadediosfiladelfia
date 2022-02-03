@@ -83,6 +83,17 @@ ul{
     
 }
 
+.documento .versiculo{
+
+    color: gold;
+}
+
+ .fin-gr{
+    color: gold;
+    font-size: 2em;
+    text-align: center;
+}
+
 /* COLUMNAS DE NOTICIAS */
 .noticias{
     display: grid;
