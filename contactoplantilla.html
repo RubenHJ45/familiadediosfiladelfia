@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conocenos</title>
+    <title>Formulario Registro</title>
         <!-- font awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <!--fuente oswal-->
@@ -26,9 +26,8 @@
                 <li><a href="biblioteca.html">Testimonios</a></li>
                 <li><a href="conocenos.html">Conocenos</a></li>
                 <li><a href="donativos.html">Donativos</a></li>
-                <li><a href="contacto1.php">Contacto</a></li>  
-                <li><a href="inicioSesion.html">Entrar</a></li>
-                
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="inicioSesion.html">Entrar</a></li>   
                 <li class="container-submenu">
                     <a href="#" class="submenu-btn">Mas...</a>
                     <ul class="submenu">
@@ -37,7 +36,6 @@
                         <li class="menu-item"><a href="consejeria.html" class="menu-link">Consejeria</a></li>
                         <li class="menu-item"><a href="biblioteca.html" class="menu-link">Biblioteca</a></li>
                         <li class="menu-item"><a href="orientacion.html" class="menu-link">Orientacion</a></li>
-                        <li class="menu-item"><a href="farmularioRegristo.html" class="menu-link">Regristrate</a></li>
                     </ul>    
             </ul>
 
@@ -63,7 +61,7 @@
 
             <ul id="box-search">
                 <li><a href="index.html"><i class="fas fa-search"></i>INICIO</a></li>
-                <li><a href="contacto1.php"><i class="fas fa-search"></i>CONTACTO</a></li>
+                <li><a href="contacto.html"><i class="fas fa-search"></i>CONTACTO</a></li>
                 <li><a href="predicas.html"><i class="fas fa-search"></i>PREDICAS</a></li>
                 <li><a href="eventos.html"><i class="fas fa-search"></i>EVENTOS</a></li>
                 <li><a href="inicioSesion.html"><i class="fas fa-search"></i>ENTRAR</a></li>
@@ -75,15 +73,22 @@
 
             <div id="cover-ctn-search"></div>
 
-               <!-- ANUNCIO DE OBRAS -->
-
-               <div class="obras">
-                <h1 id="titulo" style="text-align: center; font-size: 4rem;">Familia de <b style="color: gold;">Dios</b></h1><br><br>
-                <h1 class="info-obras">ESTA SECCION SE ENCUENTRA EN OBRAS</h1>
-                <h3 class="info-obras">LAMENTAMOS LAS MOLESTIAS</h3>
-
+            <form class="form-register">
+                <div class="form-container">
+                    <h4>Formulario Contacto</h4>
+                    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombre Completo">
+                    <input class="controls" type="text" name="poblacion" id="poblacion" placeholder="poblacion">
+                    <input class="controls" type="email" name="correo" id="correo" placeholder="Correo Electronico">
+                    <textarea class="controls-text" name="comentario" id="comentario" cols="30" rows="5" placeholder="Comentario...."></textarea>
                 
-            </div>
+                    
+                    <input class="botons" type="submit" value="Enviar">
+                    
+                    <p><a href="inicioSesion.html">¿Ya tienes Cuenta?</a></p>
+                    <p><a href="farmularioRegristo.html">¿Aun no tienes Cuenta?</a></p>
+                </div>
+            </form>
+
 
             <section class="social">
                 <p>SIGUENOS EN NUESTRAS REDES</p>
@@ -106,6 +111,7 @@
                 </div>
             </section>
 
+           
         </div>
 
 
@@ -118,4 +124,3 @@
         
 </body>
 
-</html>

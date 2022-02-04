@@ -93,7 +93,18 @@ ul{
     font-size: 2em;
     text-align: center;
 }
+.validacion{
 
+    width: 100%;
+    justify-content: center;
+}
+
+.correo-enviado{
+
+    font-size: 2rem;
+    color: gold;
+    text-align: center;
+}
 
 
 /* COLUMNAS DE NOTICIAS */
